@@ -1,5 +1,12 @@
 // var catchingWords=document.querySelector(".drum").textContent;
 // console.log(catchingWords);
+// var n=document.querySelectorAll("button").length;
+// for(i=0;i<n;i++){
+//     document.querySelectorAll("button")[i].addEventListener("click",function(){
+//         var audio = new Audio('./sounds/crash.mp3');
+//            audio.play();
+//     })
+// }
 function clicking(element){
     var catchingWords=element.textContent;
     console.log(element)
@@ -36,9 +43,10 @@ function clicking(element){
            default:
             alert("please click correct key");
     }
+}
     // var audio = new Audio('./sounds/kick-bass.mp3');
     // audio.play();
-}
+
 // var second=document.querySelector(".a.drum");
 // second.addEventListener("click",two);
 // console.log(second);
